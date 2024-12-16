@@ -1,0 +1,38 @@
+    1  git config
+    2  git config
+    3  git config email
+    4  git config
+    5  git config global
+    6  git config username
+    7  git config --global
+    8  git config --global user.name "Olha"
+    9  git config --global email "homich.olya@gmail.com"
+   10  git config --global user.email "homich.olya@gmail.com"
+   11  git clone https://github.com/OlyaPashko/HW_10.git
+   12  cd /c/Users/44793/Desktop/Git/HW_10/
+   13  git touch text_ignore.txt
+   14  git --help
+   15  git touch text_ignore.txt
+   16  touch text_ignore.txt
+   17  nano text_ignore.txt
+   18  nano .gitignore 
+   19  git status
+   20  git add .gitignore 
+   21  git commit -m "edited ,gitignore using nano command"
+   22  touch main_test.txt
+   23  git add main_test.txt
+   24  git commit -m "created test file named main_test.txt"
+   25  git branch develop
+   26  git checkout develop
+   27  touch develop_test.txt
+   28  git add develop_test.txt
+   29  git commit -m "created new branch named develop"
+   30  nano develop_test.txt
+   31  git status
+   32  git add develop_test.txt
+   33  git commit -m "edited develop_test.txt"
+   34  history > command_list.csv
+   35  git checkout main
+   36  git merge develop
+   37  git log
+   38  history > command_list.csv
